@@ -6,7 +6,7 @@
 ## DE-LU DA Price Forecasting Pipeline
 
 ## Overview
-This repository contains the final production pipeline for DE-LU day-ahead (DA) price forecasting and fair-value translation.
+This repository contains the pipeline for DE-LU day-ahead (DA) price forecasting and fair-value translation.
 
 For evaluators:
 - `SUBMISSION.md` is the concise case-study writeup aligned to the assignment requirements.
