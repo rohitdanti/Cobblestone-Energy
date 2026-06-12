@@ -8,6 +8,10 @@
 ## Overview
 This repository contains the final production pipeline for DE-LU day-ahead (DA) price forecasting and fair-value translation.
 
+For evaluators:
+- `SUBMISSION.md` is the concise case-study writeup aligned to the assignment requirements.
+- `README.md` is the technical project documentation with setup, run instructions, and implementation details.
+
 The pipeline runs in six stages:
 1. Ingestion (incremental sync from ENTSO-E or stale-cache fallback)
 2. QA checks
