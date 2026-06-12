@@ -1,0 +1,33 @@
+market:
+  name: "DE-LU"
+  eic_code: "10Y1001A1001A82H"
+  timezone: "Europe/Berlin"
+
+date_range:
+  start: "2019-01-01"
+  end:   "2025-09-30"
+
+splits:
+  train_end:      "2023-12-31"
+  validation_end: "2024-12-31"
+  # holdout is 2025-01-01 to 2025-09-30
+
+model:
+  n_estimators:      500
+  learning_rate:     0.05
+  max_depth:         6
+  num_leaves:        63
+  min_child_samples: 20
+  subsample:         0.8
+  colsample_bytree:  0.8
+  random_state:      42
+
+curve_translation:
+  confidence_band_threshold_eur_mwh: 30
+  signal_threshold_factor: 0.5   # edge must exceed 0.5 x validation RMSE to trigger BUY/SELL
+  market_forward_quote: null     # set this to trigger signal generation (see PLAN.md Section 10)
+
+llm:
+  model: "gpt-4o-mini"
+  temperature: 0
+  max_tokens: 200

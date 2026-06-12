@@ -1,0 +1,79 @@
+{
+  "naive_validation": {
+    "label": "naive_validation",
+    "n_samples": 8616,
+    "mae": 32.4001,
+    "rmse": 55.106,
+    "tail_mae_high": 56.2405,
+    "tail_mae_low": 44.9842,
+    "daily_baseload_mae": 27.7947
+  },
+  "extra_trees_validation": {
+    "label": "extra_trees_validation",
+    "n_samples": 8784,
+    "mae": 18.0585,
+    "rmse": 29.1465,
+    "tail_mae_high": 38.849,
+    "tail_mae_low": 18.2437,
+    "daily_baseload_mae": 12.9478
+  },
+  "naive_holdout": {
+    "label": "naive_holdout",
+    "n_samples": 6382,
+    "mae": 31.9634,
+    "rmse": 48.4978,
+    "tail_mae_high": 52.4877,
+    "tail_mae_low": 36.0872,
+    "daily_baseload_mae": 25.9803
+  },
+  "extra_trees_holdout": {
+    "label": "extra_trees_holdout",
+    "n_samples": 6550,
+    "mae": 17.5564,
+    "rmse": 27.1088,
+    "tail_mae_high": 32.4686,
+    "tail_mae_low": 21.2928,
+    "daily_baseload_mae": 12.2012
+  },
+  "rolling_validation_summary": {
+    "n_folds": 4,
+    "folds": [
+      {
+        "fold_start": "2024-01-01",
+        "fold_end": "2024-03-31",
+        "naive_mae": 21.5099,
+        "naive_rmse": 28.8433,
+        "extra_trees_mae": 16.2254,
+        "extra_trees_rmse": 21.6492
+      },
+      {
+        "fold_start": "2024-04-01",
+        "fold_end": "2024-06-30",
+        "naive_mae": 28.7461,
+        "naive_rmse": 38.7262,
+        "extra_trees_mae": 16.685,
+        "extra_trees_rmse": 22.0708
+      },
+      {
+        "fold_start": "2024-07-01",
+        "fold_end": "2024-09-30",
+        "naive_mae": 30.5034,
+        "naive_rmse": 46.2547,
+        "extra_trees_mae": 15.7764,
+        "extra_trees_rmse": 25.0238
+      },
+      {
+        "fold_start": "2024-10-01",
+        "fold_end": "2024-12-31",
+        "naive_mae": 47.6591,
+        "naive_rmse": 88.6001,
+        "extra_trees_mae": 22.1485,
+        "extra_trees_rmse": 41.4104
+      }
+    ],
+    "naive_mae_mean": 32.1046,
+    "naive_rmse_mean": 50.6061,
+    "extra_trees_mae_mean": 17.7088,
+    "extra_trees_rmse_mean": 27.5386
+  }
+}

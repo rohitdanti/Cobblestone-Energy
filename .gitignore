@@ -1,0 +1,27 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+
+# Generated artifacts not needed in the public repo
+processed/
+models/
+PLAN.md
+PLAN_DETAILED.md
+IMPLEMENTATION.md
+
+# Outputs
+outputs/.DS_Store
+outputs/logs/
+outputs/llm_logs/*.json
+!outputs/llm_logs/sample_log.json
+
+# macOS
+.DS_Store

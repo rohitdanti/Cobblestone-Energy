@@ -1,0 +1,129 @@
+{
+  "selected_model": "06_extra_trees",
+  "selection_criterion": "lowest holdout MAE",
+  "n_candidates": 9,
+  "candidates": {
+    "06_extra_trees": {
+      "model": "06_extra_trees",
+      "val_mae": 16.8027,
+      "val_rmse": 28.4455,
+      "hold_mae": 16.7795,
+      "hold_rmse": 26.7865,
+      "tail_hi": 33.4753,
+      "tail_lo": 19.9759,
+      "train_s": 0.9
+    },
+    "08_xgboost": {
+      "model": "08_xgboost",
+      "val_mae": 17.0655,
+      "val_rmse": 27.9914,
+      "hold_mae": 17.188,
+      "hold_rmse": 26.8813,
+      "tail_hi": 31.5972,
+      "tail_lo": 22.7971,
+      "train_s": 0.3
+    },
+    "09_lightgbm": {
+      "model": "09_lightgbm",
+      "val_mae": 17.1543,
+      "val_rmse": 28.0729,
+      "hold_mae": 17.3161,
+      "hold_rmse": 26.8605,
+      "tail_hi": 31.0183,
+      "tail_lo": 22.9078,
+      "train_s": 0.9
+    },
+    "04_elasticnet": {
+      "model": "04_elasticnet",
+      "val_mae": 18.0679,
+      "val_rmse": 30.6727,
+      "hold_mae": 17.7858,
+      "hold_rmse": 27.2537,
+      "tail_hi": 31.6741,
+      "tail_lo": 21.6704,
+      "train_s": 0.0
+    },
+    "05_random_forest": {
+      "model": "05_random_forest",
+      "val_mae": 18.6191,
+      "val_rmse": 31.3028,
+      "hold_mae": 17.9764,
+      "hold_rmse": 28.5175,
+      "tail_hi": 34.1273,
+      "tail_lo": 24.8462,
+      "train_s": 5.7
+    },
+    "07_gradient_boosting_sklearn": {
+      "model": "07_gradient_boosting_sklearn",
+      "val_mae": 17.3329,
+      "val_rmse": 28.0017,
+      "hold_mae": 17.9929,
+      "hold_rmse": 27.8432,
+      "tail_hi": 33.4053,
+      "tail_lo": 21.6043,
+      "train_s": 41.0
+    },
+    "03_lasso": {
+      "model": "03_lasso",
+      "val_mae": 21.0453,
+      "val_rmse": 33.0683,
+      "hold_mae": 20.5984,
+      "hold_rmse": 30.3652,
+      "tail_hi": 33.488,
+      "tail_lo": 24.2395,
+      "train_s": 0.0
+    },
+    "02_ridge": {
+      "model": "02_ridge",
+      "val_mae": 21.1427,
+      "val_rmse": 33.1701,
+      "hold_mae": 21.1595,
+      "hold_rmse": 30.7852,
+      "tail_hi": 33.5241,
+      "tail_lo": 24.9851,
+      "train_s": 0.0
+    },
+    "01_seasonal_naive": {
+      "model": "01_seasonal_naive",
+      "val_mae": 32.4001,
+      "val_rmse": 55.106,
+      "hold_mae": 31.9634,
+      "hold_rmse": 48.4978,
+      "tail_hi": 52.4877,
+      "tail_lo": 36.0872,
+      "train_s": 0.0
+    }
+  },
+  "top_3_by_holdout_mae": [
+    {
+      "model": "06_extra_trees",
+      "val_mae": 16.8027,
+      "val_rmse": 28.4455,
+      "hold_mae": 16.7795,
+      "hold_rmse": 26.7865,
+      "tail_hi": 33.4753,
+      "tail_lo": 19.9759,
+      "train_s": 0.9
+    },
+    {
+      "model": "08_xgboost",
+      "val_mae": 17.0655,
+      "val_rmse": 27.9914,
+      "hold_mae": 17.188,
+      "hold_rmse": 26.8813,
+      "tail_hi": 31.5972,
+      "tail_lo": 22.7971,
+      "train_s": 0.3
+    },
+    {
+      "model": "09_lightgbm",
+      "val_mae": 17.1543,
+      "val_rmse": 28.0729,
+      "hold_mae": 17.3161,
+      "hold_rmse": 26.8605,
+      "tail_hi": 31.0183,
+      "tail_lo": 22.9078,
+      "train_s": 0.9
+    }
+  ]
+}

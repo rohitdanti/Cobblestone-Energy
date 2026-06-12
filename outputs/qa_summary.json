@@ -1,0 +1,33 @@
+{
+  "run_date": "2026-06-11",
+  "series": {
+    "da_prices": {
+      "coverage_pct": 100.0,
+      "gaps_gt2h": 0,
+      "outliers": 6,
+      "duplicate_utc": false
+    },
+    "load": {
+      "coverage_pct": 99.915,
+      "gaps_gt2h": 0,
+      "outliers": 0,
+      "duplicate_utc": false
+    },
+    "wind": {
+      "coverage_pct": 99.997,
+      "gaps_gt2h": 0,
+      "outliers": 0,
+      "duplicate_utc": false
+    },
+    "solar": {
+      "coverage_pct": 99.997,
+      "gaps_gt2h": 0,
+      "outliers": 0,
+      "duplicate_utc": false
+    }
+  },
+  "aligned": true,
+  "common_start": "2019-01-01 00:00:00+00:00",
+  "common_end": "2025-09-30 21:00:00+00:00",
+  "all_checks_passed": true
+}

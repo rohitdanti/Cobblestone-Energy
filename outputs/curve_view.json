@@ -1,0 +1,29 @@
+{
+  "forecast_date": "2025-01-01",
+  "forecast_origin_utc": "2024-12-31T11:00:00+00:00",
+  "production": {
+    "da_baseload_eur_mwh": 0.7193,
+    "da_peak_eur_mwh": 1.6502,
+    "da_offpeak_eur_mwh": -0.1341,
+    "peak_base_spread_eur_mwh": 0.9309,
+    "confidence_p10_eur_mwh": 62.2458,
+    "confidence_p90_eur_mwh": 115.3483,
+    "output_type": "PRODUCTION"
+  },
+  "scenario": {
+    "output_type": "SCENARIO_FAIR_VALUE",
+    "note": "Uses repeated D+1 fundamentals as proxy. Directional only.",
+    "week_ahead_baseload_eur_mwh": 138.2557,
+    "month_ahead_baseload_eur_mwh": 138.1126
+  },
+  "market_forward_quote": null,
+  "edge_eur_mwh": null,
+  "signal": "NO_QUOTE_PROVIDED",
+  "invalidation_flags": {
+    "qa_failed": false,
+    "wide_confidence_band": true,
+    "recent_model_deterioration": false,
+    "product_mismatch": false,
+    "manual_review_required": true
+  }
+}
